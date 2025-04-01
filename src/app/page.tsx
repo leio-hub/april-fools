@@ -6,7 +6,7 @@ export default function Home() {
 	const [videoSrc, setVideoSrc] = useState("/assets/videos/spidey-intro.mp4");
 	const [isMuted, setIsMuted] = useState(true);
 	const [showButton, setShowButton] = useState(true);
-	const videoRef = useRef(null); // Reference to the video element
+	const videoRef = useRef<HTMLVideoElement | null>(null);
 	const [showImage, setShowImage] = useState(true);
 
 	const handleVideoChange = () => {
