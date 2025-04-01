@@ -47,7 +47,7 @@ export default function Home() {
 				<div className="flex items-center justify-center absolute left-1/2 bottom-20 -translate-x-1/2">
 					<button
 						onClick={handleVideoChange}
-						className="hover:cursor-pointer relative px-8 py-3 bg-black text-white font-semibold text-[20px] rounded-lg border-2 border-purple-500 hover:border-purple-400 transition-all duration-300 hover:shadow-[0_0_20px_10px_rgba(168,85,247,0.6)] active:scale-95 active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] group"
+						className="hover:cursor-pointer relative px-8 py-3 bg-black text-white font-semibold text-[14px] lg:text-[20px] rounded-lg border-2 border-purple-500 hover:border-purple-400 transition-all duration-300 hover:shadow-[0_0_20px_10px_rgba(168,85,247,0.6)] active:scale-95 active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] group"
 					>
 						<span className="flex items-center space-x-2">
 							<span>PLAY WITH US?</span>
